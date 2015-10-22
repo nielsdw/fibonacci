@@ -1,4 +1,4 @@
-#include "big.h"
+#include "big.h" //author: NdW
 using namespace std;
 void big::extend(long long int value) {
 	current = new chunk(value);
