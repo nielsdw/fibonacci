@@ -1,7 +1,9 @@
 #include <iostream>
 #include <stdlib.h>
 #include <cstdio>
+
 const long long int maxValue = 1000000000000000000;
+
 struct chunk {
 		long long int content;
 		chunk *next;
